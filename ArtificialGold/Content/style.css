@@ -1,0 +1,333 @@
+*
+{
+	padding: 0;
+	margin: 0
+}
+body
+{
+	color: #444444;
+	font: 14px/150% Arial, Helvetica, sans-serif;
+}
+a img,
+:link img,
+:visited img
+{
+	border:none
+}
+P
+{
+	margin-bottom:10px;
+	text-align:justify;
+}
+:active,
+:focus
+{
+	outline:none;
+}
+a:link,
+a:visited
+{
+	color:#F16516;
+	text-decoration: none;
+}
+a:hover
+{
+	text-decoration:none;
+	color:#111;
+}
+input,
+textarea,
+select
+{
+	padding:5px;
+	margin:0;
+	color:#666;
+	font-size:98%;
+}
+.clear
+{
+	clear:both;
+}
+/*Headings*/
+h1
+{
+	font: 24px/26px Arial, Helvetica, sans-serif;
+	color:#F16516;
+	margin:0px 0 12px;
+}
+h2
+{
+	font: 18px/20px Arial, Helvetica, sans-serif;
+	color:#F16516;
+	margin: 22px 0 10px 0;
+}
+h3
+{
+	font: bold 14px/16px Arial, Helvetica, sans-serif;
+	color:#F16516;
+	margin: 20px 0 10px 0;
+}
+h4
+{
+	font: bold 12px/14px Arial, Helvetica, sans-serif;
+	color:#333;
+	margin: 16px 0 10px 0;
+}
+.center
+{
+	text-align:center
+}
+.right
+{
+	text-align:right
+}
+.fleft
+{
+	float:left;
+}
+.fright
+{
+	float:right;
+}
+br.clear
+{
+	clear:both;
+	width:2px;
+	display:block;
+}
+/*Page*/
+.container
+{
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.header
+{
+	height:180px;
+	position: fixed;
+	width: 940px;
+	z-index: 999;
+	background:#FFF url(Content/images/graphic-top.jpg) 300px 0px no-repeat;
+	clear:both;
+}
+.header_top
+{
+	width:940px;
+	height:90px;
+	padding-top:20px;
+}
+.logo
+{
+	width:250px;
+	height:90px;
+}
+/*Navigation*/
+.nav
+{
+	width:940px;
+	height:36px;
+	border-top:#CCC 1px solid;
+	border-bottom:#2D2E30 5px solid;
+}
+.nav ul li
+{
+	list-style:none;
+	float:left;
+	display:block;
+}
+.nav ul li a,
+.nav ul li a:visited
+{
+	color:#333;
+	float:left;
+	text-align:center;
+	font: 14px/36px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	padding:0 20px;
+}
+.nav ul li a:hover,
+.nav ul li a.active
+{
+	color:#F16516;
+}
+.content
+{
+	width:940px;
+	border-bottom:none;
+	padding-top:180px;
+}
+.home_main
+{
+	width:900px;
+	padding:19px;
+	height:210px;
+	border:#CCC 1px solid;
+}
+.home_main_lft
+{
+	width:450px;
+	float:left;
+	text-align:center;
+	padding-top:60px;
+}
+.home_main_rgt
+{
+	width:450px;
+	float:right;
+}
+.welcome_wrap, .about_wrap, .services_wrap
+{
+	width:940px;
+}
+.welcome_wrap
+{
+	margin-top:30px;
+}
+.col_left
+{
+	width:630px;
+}
+.col_right
+{
+	width:230px;
+	padding-top:28px;
+}
+.col_left_in
+{
+	padding:14px 0 10px 0;
+	border-bottom:#CCC 1px solid;
+}
+.col_left_in h1
+{
+	padding:0;
+	margin:0;
+}
+.col_left_in h1,
+.col_left_in h2
+{
+	padding-top:0;
+	margin-top:0;
+}
+.left_list
+{
+	clear:both;
+	width:100%;
+	margin:5px 0 10px;
+	float:left;
+}
+.left_list li
+{
+	list-style:none;
+	padding-left:30px;
+	background:url(Content/images/tick-small.png) left 3px no-repeat;
+	width:28%;
+	float:left;
+	margin-bottom:8px;
+}
+.testimonial
+{
+	width:186px;
+	background:#F16516 url(Content/images/bg-testimonials.jpg) left top no-repeat;
+	margin-bottom:20px;
+	padding:22px;
+	margin-top:5px;
+}
+.testimonial h2
+{
+	color:#FFF;
+	margin:0 0 10px;
+	border-bottom:#FFF 1px solid;
+	padding-bottom:4px;
+}
+.testi_item
+{
+	padding-top:40px;
+	background:url(Content/images/quote-open.png) left top no-repeat;
+	margin-top:20px;
+	color:#000;
+}
+.testi_item_in
+{
+	padding-bottom:20px;
+	background:url(Content/images/quote-close.png) right bottom no-repeat;
+	margin-bottom:20px;
+}
+.col_right_in
+{
+	border-bottom:#CCC 1px solid;
+}
+
+.right_list ul
+{
+}
+.right_list ul li
+{
+	list-style:none;
+	padding-left:35px;
+	background:url(Content/images/tick-big.png) left 3px no-repeat;
+	padding-bottom:8px;
+	margin-bottom:16px;
+}
+.project_wrap
+{
+	width:940px;
+	border-bottom:#CCC 1px solid;
+}
+.project_item
+{
+	width:205px;
+	margin-right:40px;
+}
+.last
+{
+	margin-right:0px;
+}
+.project_wrap h2
+{
+	margin:0px 0 6px;
+}
+.contact_wrap
+{
+	background:#F5F5F5;
+	width:930px;
+	padding:5px;
+	margin:20px 0;
+}
+.map_wrap
+{
+	width:940px;
+	margin:0px 0 20px;
+}
+.contact_wrap_in
+{
+	width:260px;
+	padding:25px;
+}
+.contact_wrap_in h3
+{
+	margin-top:0px;
+}
+.social_a
+{
+	width:125px;
+}
+.social_b
+{
+	width:60px;
+	padding-top:20px;
+}
+.footer
+{
+	width:940px;
+	padding:8px 0 25px;
+	text-align:center;
+	font-size:12px;
+	color:#777;
+	border-top:#2D2E30 5px solid;
+}
+.topzero
+{
+	padding-top:0px;
+	margin-top:0px;
+}
