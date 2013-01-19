@@ -12,7 +12,6 @@ namespace ArtificialGold.Controllers
 
         public HomeController():this(new HomeViewModelRetriever(new PhrasesRetriever()))
         {
-            
         }
 
         public HomeController(IHomeViewModelRetriever homeViewModelRetriever)
